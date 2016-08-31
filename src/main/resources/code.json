@@ -1,0 +1,99 @@
+{
+  "40001": {
+    "code": "40001",
+    "sysMessage": "请求参数有误",
+    "businessMessage": "请求参数有误",
+    "httpCode": "400"
+  },
+  "40002": {
+    "code": "40002",
+    "sysMessage": "验证码错误",
+    "businessMessage": "验证码错误",
+    "httpCode": "400"
+  },
+  "40101": {
+    "code": "40101",
+    "sysMessage": "用户未登录",
+    "businessMessage": "用户未登录",
+    "httpCode": "401"
+  },
+  "40102": {
+    "code": "40102",
+    "sysMessage": "用户名密码不正确",
+    "businessMessage": "用户名密码不正确,请重新登录",
+    "httpCode": "401"
+  },
+  "40103": {
+    "code": "40103",
+    "sysMessage": "用户被冻结",
+    "businessMessage": "用户被冻结,请联系客服人员",
+    "httpCode": "401"
+  },
+
+  "40301": {
+    "code": "40301",
+    "sysMessage": "用户权限不足",
+    "businessMessage": "用户所在组权限不足",
+    "httpCode": "403"
+  },
+  "40302": {
+    "code": "40302",
+    "sysMessage": "非法用户,token错误",
+    "businessMessage": "请重新登录",
+    "httpCode": "403"
+  },
+  "40303": {
+    "code": "40303",
+    "sysMessage": "登录时间超时",
+    "businessMessage": "登录超期,请重新登录",
+    "httpCode": "403"
+  },
+  "40305": {
+    "code": "40305",
+    "sysMessage": "验证头信息不符合格式,token不存在",
+    "businessMessage": "请重新登录",
+    "httpCode": "403"
+  },
+  "40306": {
+    "code": "40306",
+    "sysMessage": "验证头信息不符合格式,timestamp不存在",
+    "businessMessage": "请重新登录",
+    "httpCode": "403"
+  },
+  "40307": {
+    "code": "40307",
+    "sysMessage": "验证头信息不符合格式,userid不存在",
+    "businessMessage": "请重新登录",
+    "httpCode": "403"
+  },
+  "40308": {
+    "code": "40308",
+    "sysMessage": "验证头信息不符合格式,timestamp格式不对",
+    "businessMessage": "请重新登录",
+    "httpCode": "403"
+  },
+  "40309": {
+    "code": "40309",
+    "sysMessage": "验证头信息不符合格式,其它",
+    "businessMessage": "请重新登录",
+    "httpCode": "403"
+  },
+  "40401": {
+    "code": "40401",
+    "sysMessage": "资源无效",
+    "businessMessage": "请求的数据不存在",
+    "httpCode": "404"
+  },
+  "50001": {
+    "code": "50001",
+    "sysMessage": "服务器异常",
+    "businessMessage": "服务器异常",
+    "httpCode": "500"
+  },
+  "50002": {
+    "code": "50002",
+    "sysMessage": "数据库异常",
+    "businessMessage": "数据库异常",
+    "httpCode": "500"
+  }
+}
